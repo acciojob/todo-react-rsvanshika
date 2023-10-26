@@ -31,12 +31,15 @@ const App = () => {
     { 
      todolist.map((item,index) =>(
         <div>
-          <ul>
-            <li>
+            <ul>
+              <li>
               {item}
               <button onClick={()=>handleDelete(index)} >Delete</button>
-            </li>
-          </ul>
+              </li>
+            </ul>
+             
+            
+          
         </div>
       ))
     }
